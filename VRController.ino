@@ -46,10 +46,8 @@ void dmpDataReady() {
 // https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/udp-examples.html
 // ======================================================================================
 
-//const char* ssid = "GNX8DE279";
-//const char* password = "7TDR4TPZNKPJ";
-const char* ssid = "Seegert";
-const char* password = "42480628";
+const char* ssid = "123";
+const char* password = "123";
 
 WiFiUDP Udp;
 unsigned int localUdpPort = 4210;  // local port to listen on
